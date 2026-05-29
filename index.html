@@ -255,8 +255,8 @@ footer{border-top:1px solid var(--border);padding:24px 56px;display:flex;align-i
   .hero{padding:72px 16px 44px}
   .hero-avatar{width:88px;height:88px;margin-bottom:20px}
   .hero-desc{font-size:15px;margin-bottom:28px}
-  .hero-btns{gap:8px}
-  .btn-fill,.btn-ghost{padding:11px 18px;font-size:13px}
+  .hero-btns{gap:8px;flex-direction:column}
+  .btn-fill,.btn-ghost{padding:12px 20px;font-size:14px;width:100%;justify-content:center}
   .hero-stats{gap:20px;flex-wrap:wrap;margin-top:32px;padding-top:24px}
   .s-num{font-size:30px}
   .s-lbl{font-size:11px}
@@ -351,7 +351,7 @@ footer{border-top:1px solid var(--border);padding:24px 56px;display:flex;align-i
       <div class="hero-btns">
         <a class="btn-fill" href="#work">View Work →</a>
         <a class="btn-ghost" href="mailto:wa.hatairat@gmail.com">Get in Touch</a>
-        <button class="btn-ghost" onclick="openResume()" style="gap:7px;font-family:inherit">↗ View Resume</button>
+        <button class="btn-ghost" onclick="openResume()" style="gap:7px;font-family:inherit"><span style="font-style:normal;font-variant-emoji:text">↗</span> View Resume</button>
       </div>
     </div>
     <div class="hero-right">
